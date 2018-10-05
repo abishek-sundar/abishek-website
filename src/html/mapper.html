@@ -37,6 +37,7 @@
     <div class='content isOpen'>
       <a class='button'></a>
       <div class="projectHeadings">Voyager, The Ultimate Touristic Map</div>
+    
       <div class="projectText">Here is a fully fledged functional map, catered to tourists. It includes features like
         searching for streets, points of interests, features, intersections and different cities. The map will also
         auto-complete your queries. You can even find out the shortest path to go from point A to point B and includes
@@ -88,6 +89,7 @@
     $(document).ready(function () {
       $('.button').on('click', function () {
         $('.content').toggleClass('isOpen');
+        $('.projectText').toggleClass('isOpen');
       });
     });
   </script>

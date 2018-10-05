@@ -135,6 +135,21 @@ body{
 .projectText{
     font-size: 20px;
     font-family: ProximaNovaRegular;
+    
+    max-width: 85%;
+    transition: max-width .3s
+    /* transform:scaleX(2); */
+    /* max-width: 100%; */
+}
+.projectText.isOpen{
+    /* overflow-x: auto; */
+    /* max-width: 50%; */
+    max-width: 100%;
+    
+    
+    /* transform: scaleX(.5); */
+    /* font-family: cursive; */
+    /* width: 75%; */
 
 }
 
