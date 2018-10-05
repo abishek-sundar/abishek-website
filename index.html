@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Abishek Sundar</title>
+  <link rel="stylesheet" type="text/css" href="src/style/style.css" />
+  <link rel="stylesheet" type="text/css" href="src/style/sidebar.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class='wrapper'>
+    <div class='sidebar'>
+      <div class='title'>
+        ABISHEK
+      </div>
+      <ul class='nav'>
+        <li>
+          <a class='active' href="index.html">About Me</a>
+        </li>
+        <li>
+          <a href="src/html/projects.html">My Projects</a>
+        </li>
+        <li>
+          <a href="https://github.com/abishek-sundar?tab=repositories" target="_blank" />My Github</a>
+        </li>
+        <li>
+          <a href="src/html/contact.html">Contact Me</a>
+        </li>
+        <li><a class='button'>Close this sidebar.</a>
+        <li>
+
+      </ul>
+    </div>
+    <div class='content isOpen'>
+      <a class='button'></a>
+      <div class="imageWrap">
+        <img id="idek" alt="Me" class="pic" style="float: right; margin: 20px 20px 15px 15px;" src="assets\misc\me.png"
+          width=35% />
+      </div>
+      <div id="myModal" class="modal">
+
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+
+      <div class="intro">
+        Hi, <br />
+        I'm Abishek,<br />
+        a tech enthusiast.
+      </div>
+      <br /><br /><br />
+      <div class="whoAmI">
+        I'll cut to the chase, I love tech. GPUs, CPUs, Cooling, Memory, Drones, Optics, the whole nine yards.
+        I've been reading and learning about tech since 2012 and don't plan on stopping anytime soon.
+        I wrote my first program around the same time as well, and was immediately hooked.
+        Soon enough, I learned that I liked writing scripts and automation. <br /><br />
+
+        See my work under my projects! <br />
+
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="src/JS/enlarge.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.button').on('click', function () {
+        $('.content').toggleClass('isOpen');
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'CGFLocustResistance';
+	src: url('./CGFLocustResistance.eot');
+	src: local('CGFLocustResistance'), url('./CGFLocustResistance.woff') format('woff'), url('./CGFLocustResistance.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_16964">Text with this font applied</p> */
+.fontsforweb_fontid_16964 {
+	font-family: 'CGFLocustResistance' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

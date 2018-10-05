@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Abishek Sundar</title>
+
+  <link rel="stylesheet" type="text/css" href="../style/style.css" />
+  <link rel="stylesheet" type="text/css" href="../style/sidebar.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class='sidebar'>
+      <div class='title'>
+        ABISHEK
+      </div>
+      <ul class='nav'>
+        <li>
+          <a href="../../index.html">About Me</a>
+        </li>
+        <li>
+          <a href="projects.html">My Projects</a>
+        </li>
+        <li>
+          <a href="https://github.com/abishek-sundar?tab=repositories" target="_blank" >My Github</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Me</a>
+        </li>
+
+      </ul>
+    </div>
+    <div class='content isOpen'>
+      <a class='button'></a>
+      <div class="projectHeadings">pH Management</div>
+      <div class="aquaThingy"><img src="aquaponics.jpg"></div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="../JS/enlarge.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.button').on('click', function () {
+        $('.content').toggleClass('isOpen');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

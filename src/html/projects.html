@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Abishek Sundar</title>
+
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <link rel="stylesheet" type="text/css" href="../style/sidebar.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <div class='wrapper'>
+        <div class='sidebar'>
+            <div class='title'>
+                ABISHEK
+            </div>
+            <ul class='nav'>
+                <li>
+                    <a href="../../index.html">About Me</a>
+                </li>
+                <li>
+                    <a class='active' href="projects.html">My Projects</a>
+                </li>
+                <li>
+                    <a href="https://github.com/abishek-sundar?tab=repositories" target="_blank" />My Github</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+                <li><a class='button'>Close this sidebar.</a>
+                <li>
+            </ul>
+        </div>
+        <div class='content isOpen'>
+            <a class='button'></a>
+
+            <div class="projectWrap">
+                <a href="duckHunt.html">
+                    <img src="../../assets/duck/duckHunt.jpg" class="thumb" alt="duckHunt"></a>
+                <div class="projectBox">
+                    <div class="projectName">Duck Hunt </div>
+                </div>
+            </div>
+
+            <div class="projectWrap2">
+                <a href="mapper.html">
+                    <img src="../../assets/mapper/mapper.png" class="thumb" alt="mapper"></a>
+                <div class="projectBox">
+                    <div class="projectName">Mapper</div>
+                </div>
+            </div>
+
+            <div class="projectWrap3">
+                <a href="brick.html">
+                    <img src="../../assets/brick/new_level.png" class="thumb" alt="brick"></a>
+                <div class="projectBox">
+                    <div class="projectName">Brick Breaker</div>
+                </div>
+            </div>
+
+            <div class="projectWrap4">
+                <a href="f1.html">
+                    <img src="../../assets/cars/car.jpg" class="thumb" alt="car"></a>
+                <div class="projectBox">
+                    <div class="projectName">Formula One</div>
+                </div>
+            </div>
+
+
+
+            <div class="projectWrap6">
+                <a href="airway.html">
+                    <img src="../../assets/airplane/airplane.jpg" class="thumb" alt="plane"></a>
+                <div class="projectBox">
+                    <div class="projectName">Airplane booking managment system</div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../JS/enlarge.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.button').on('click', function () {
+                $('.content').toggleClass('isOpen');
+            });
+        });
+    </script>
+</body>
+
+</html>

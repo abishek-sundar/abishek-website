@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Abishek Sundar</title>
+  <link rel="stylesheet" type="text/css" href="../style/style.css" />
+  <link rel="stylesheet" type="text/css" href="../style/sidebar.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class='sidebar'>
+      <div class='title'>
+        ABISHEK
+      </div>
+      <ul class='nav'>
+        <li>
+          <a href="../../index.html">About Me</a>
+        </li>
+        <li>
+          <a href="projects.html">My Projects</a>
+        </li>
+        <li>
+          <a href="https://github.com/abishek-sundar?tab=repositories" target="_blank" >My Github</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Me</a>
+        </li>
+        <li><a class='button'>Close this sidebar.</a>
+        <li>
+      </ul>
+    </div>
+    <div class='content isOpen'>
+      <a class='button'></a>
+      <div class="projectHeadings">Voyager, The Ultimate Touristic Map</div>
+      <div class="projectText">Here is a fully fledged functional map, catered to tourists. It includes features like
+        searching for streets, points of interests, features, intersections and different cities. The map will also
+        auto-complete your queries. You can even find out the shortest path to go from point A to point B and includes
+        a directions UI. The map has a minimap in the bottom right corner that aids navigation and shows your location.<br />
+        <br /></div>
+
+      <div class="duckVid"><iframe width="700" height="400" src="https://www.youtube.com/embed/tSBemw-ANqE" frameborder="0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+      <div class="projectText">Some searching functionality and auto completion is showcased here. The auto-completion
+        is inspired by command line and does so when the key "Tab" is pressed. The features (like parks, monuments
+        etc.) will be suggested based on size i.e bigger features will be suggested first. </div><br />
+      <div class="duckVid"><iframe width="700" height="400" src="https://www.youtube.com/embed/2HXXVLnBxzI" frameborder="0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+      <div class="projectText">This is how our minimap works. You can click anywhere on it to directly be transported
+        to that location. Anytime you are panning or zooming around the map, the red box indicates your location
+        respective to the big features of the city. </div><br />
+      <div class="duckVid"><iframe width="700" height="400" src="https://www.youtube.com/embed/-jeMK55t8a0" frameborder="0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+      <div class="projectText">Here is a demonstration of our directions user interface. You can search how to go from
+        an intersection to another intersection or from an intersection to a point of interest. The map finds the
+        closest point of interest to your intersection through pathfinding and is not just geographical. In the drop
+        down, you can see navigation directions given to the user. You can scroll through these, just as you would in
+        any software, with a scroll wheel. The drop down also collapses to the side if you wish to see something behind
+        the navigation instructions so it doesn't hinder your experience. </div>
+      <br />
+      <div class="projectText"> We coded this map entirely in C++ using the OpenStreetMaps and EasyGL APIs. <br />Algorithms
+        and data structures used:
+        <ul>
+          <li>Djikstra's algorithm</li>
+          <li>A-star algorithm</li>
+          <li>Variation of nearest neighbour</li>
+          <li>2-opt</li>
+          <li>Simulated annealing</li>
+          <li>R-trees</li>
+        </ul>
+        We also tackled a variation of the travelling salesman problem.<br /> A UPS delivery truck has to drop off and
+        pick up packages at various locations. The truck has to start and end at a depot. <br /><br />
+        In order to optimise the time taken by the truck, we used a nearest neighbour algorithm that only went to valid
+        locations. A location is deemed "valid" as long as we aren't required to drop-off something we have not picked
+        up. With this inital path, we then used 2-opt and simulated annealing.<br />
+        These algorithms were hard on the processor computationally and we had to harness the computational ability of
+        multiple threads. Multithreading helped us cut our loading and computation times by 75%.
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="../JS/enlarge.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.button').on('click', function () {
+        $('.content').toggleClass('isOpen');
+      });
+    });
+  </script>
+</body>
+
+</html>

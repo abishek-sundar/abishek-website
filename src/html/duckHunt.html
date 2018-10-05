@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Abishek Sundar</title>
+
+  <link rel="stylesheet" type="text/css" href="../style/style.css" />
+  <link rel="stylesheet" type="text/css" href="../style/sidebar.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class='sidebar'>
+      <div class='title'>
+        ABISHEK
+      </div>
+      <ul class='nav'>
+        <li>
+          <a href="../../index.html">About Me</a>
+        </li>
+        <li>
+          <a href="projects.html">My Projects</a>
+        </li>
+        <li>
+          <a href="https://github.com/abishek-sundar?tab=repositories" target="_blank" />My Github</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Me</a>
+        </li>
+        <li><a class='button'>Close this sidebar.</a>
+        <li>
+      </ul>
+    </div>
+    <div class='content isOpen'>
+      <a class='button'></a>
+      <div class="projectHeadings">Duck Hunt, NIOS-II</div>
+
+      <div class="duckVid">
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/pcCW-8KkFp0?autoplay=1" frameborder="0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="gunPhoto">
+        <img src="../../assets/duck/gun.jpg" class="gunPic" alt="gun">
+      </div>
+      <div class="projectText">
+        My group partner and I made the game, duck hunt, in assembly language. The core of the game involves shooting a
+        duck that flies across the screen with a real life light gun. It's a retro game that you can find in most
+        arcades. <br /><br />
+        Our version of duck hunt runs for thirty seconds and you get a score on the board's seven-segment hexadecimal
+        display. The position the duck enters the screen is randomized and the speed of the duck is based on how well
+        you're doing in the game. <br /><br />
+        We made our very own light gun using photoresistors, light sensors and triggers. Getting the gun to work well
+        involved a lot of calibration and testing. The inside of the gun is shown.<br /> <br />
+        You can check out the code for this project on my github.
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="../JS/enlarge.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.button').on('click', function () {
+        $('.content').toggleClass('isOpen');
+      });
+    });
+  </script>
+</body>
+
+</html>
