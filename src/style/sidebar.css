@@ -2,22 +2,26 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 @font-face {
-	font-family: 'CGFLocustResistance';
-	src: url('./fonts/CGFLocustResistance.eot');
-	src: local('CGFLocustResistance'), url('./fonts/CGFLocustResistance.woff') format('woff'), url('./fonts/CGFLocustResistance.ttf') format('truetype');
-}
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_16964">Text with this font applied</p> */
-.fontsforweb_fontid_16964 {
-	font-family: 'CGFLocustResistance' !important;
+  font-family: 'CGFLocustResistance';
+  src: url('./fonts/CGFLocustResistance.eot');
+  src: local('CGFLocustResistance'), url('./fonts/CGFLocustResistance.woff') format('woff'), url('./fonts/CGFLocustResistance.ttf') format('truetype');
 }
 
-*, *:before, *:after {
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_16964">Text with this font applied</p> */
+.fontsforweb_fontid_16964 {
+  font-family: 'CGFLocustResistance' !important;
+}
+
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100vh;
 }
 
@@ -36,13 +40,13 @@ body {
 .sidebar {
   position: fixed;
   width: 200px;
-    
+
 }
 
 .content {
   flex: 1;
   padding: 30px;
-  background: #e0e0e0   ;
+  background: #e0e0e0;
   box-shadow: 0 0 5px black;
   transform: translate3d(36px, 0, 0);
   transition: transform .3s;
@@ -50,12 +54,12 @@ body {
 
 .content.isOpen {
   transform: translate3d(200px, 0, 0);
-  
+
 }
 
 .button {
   cursor: pointer;
-    
+
 }
 
 .button:before {
@@ -77,15 +81,17 @@ body {
   /* transition-delay: 0.s; */
   opacity: 1;
 }
-.title.isOpen{
+
+.title.isOpen {
   color: transparent;
   transition-delay: 0.25s;
 }
+
 .nav li a {
   position: relative;
   display: block;
   font-family: 'Quicksand', sans-serif;
-  
+
   padding: 20px 0 20px 40px;
   font-size: 14px;
   color: #eee;
@@ -138,7 +144,7 @@ body {
 }
 
 .nav li a.active {
-  box-shadow: inset 3px 0 0 #e0e0e0 , inset 3px 0 0 #e0e0e0;
+  box-shadow: inset 3px 0 0 #e0e0e0, inset 3px 0 0 #e0e0e0;
   background: #37474f;
 }
 

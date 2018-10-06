@@ -1,82 +1,99 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 @font-face {
-	font-family: 'Harabara';
-	src: url('./fonts/Harabara.eot');
-	src: local('Harabara'), url('./fonts/Harabara.woff') format('woff'), url('./fonts/Harabara.ttf') format('truetype');
+    font-family: 'Harabara';
+    src: url('./fonts/Harabara.eot');
+    src: local('Harabara'), url('./fonts/Harabara.woff') format('woff'), url('./fonts/Harabara.ttf') format('truetype');
 }
+
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1089">Text with this font applied</p> */
 .fontsforweb_fontid_1089 {
-	font-family: 'Harabara' !important;
+    font-family: 'Harabara' !important;
 }
+
 @font-face {
-	font-family: 'ProximaNovaRegular';
-	src: url('./fonts/ProximaNovaRegular.eot');
-	src: local('ProximaNovaRegular'), url('./fonts/ProximaNovaRegular.woff') format('woff'), url('./fonts/ProximaNovaRegular.ttf') format('truetype');
+    font-family: 'ProximaNovaRegular';
+    src: url('./fonts/ProximaNovaRegular.eot');
+    src: local('ProximaNovaRegular'), url('./fonts/ProximaNovaRegular.woff') format('woff'), url('./fonts/ProximaNovaRegular.ttf') format('truetype');
 }
+
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_58703">Text with this font applied</p> */
 .fontsforweb_fontid_58703 {
-	font-family: 'ProximaNovaRegular' !important;
+    font-family: 'ProximaNovaRegular' !important;
 
 }
 
 @font-face {
-	font-family: 'BrushScriptStd';
-	src: url('./fonts/BrushScriptStd.eot');
-	src: local('BrushScriptStd'), url('./fonts/BrushScriptStd.woff') format('woff'), url('./fonts/BrushScriptStd.ttf') format('truetype');
+    font-family: 'BrushScriptStd';
+    src: url('./fonts/BrushScriptStd.eot');
+    src: local('BrushScriptStd'), url('./fonts/BrushScriptStd.woff') format('woff'), url('./fonts/BrushScriptStd.ttf') format('truetype');
 }
+
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_11739">Text with this font applied</p> */
 .fontsforweb_fontid_11739 {
-	font-family: 'BrushScriptStd' !important;
-}
-@font-face {
-	font-family: 'eurof35';
-	src: url('./fonts/eurof35.eot');
-	src: local('eurof35'), url('./fonts/eurof35.woff') format('woff'), url('./fonts/eurof35.ttf') format('truetype');
-}
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_469">Text with this font applied</p> */
-.fontsforweb_fontid_469 {
-	font-family: 'eurof35' !important;
-}
-@font-face {
-	font-family: 'impactreg';
-	src: url('./fonts/impactreg.eot');
-	src: local('impactreg'), url('./fonts/impactreg.woff') format('woff'), url('./fonts/impactreg.ttf') format('truetype');
-}
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_7349">Text with this font applied</p> */
-.fontsforweb_fontid_7349 {
-	font-family: 'impactreg' !important;
+    font-family: 'BrushScriptStd' !important;
 }
 
-.intro{
+@font-face {
     font-family: 'eurof35';
-    
+    src: url('./fonts/eurof35.eot');
+    src: local('eurof35'), url('./fonts/eurof35.woff') format('woff'), url('./fonts/eurof35.ttf') format('truetype');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_469">Text with this font applied</p> */
+.fontsforweb_fontid_469 {
+    font-family: 'eurof35' !important;
+}
+
+@font-face {
+    font-family: 'impactreg';
+    src: url('./fonts/impactreg.eot');
+    src: local('impactreg'), url('./fonts/impactreg.woff') format('woff'), url('./fonts/impactreg.ttf') format('truetype');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_7349">Text with this font applied</p> */
+.fontsforweb_fontid_7349 {
+    font-family: 'impactreg' !important;
+}
+
+.intro {
+    font-family: 'eurof35';
+
     font-size: 100px;
     padding: 5px 15px;
 }
 
 .sidenav {
-    
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 160px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
     font-family: 'Harabara';
-    background-color: #000080; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #000080;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
     padding-top: 10px;
 }
-.duckThumb{
-    float :left;
+
+.duckThumb {
+    float: left;
     margin-left: 6px;
     margin-right: 6px;
     padding: 5px;
     background-color: gold;
     border: 5px solid #000080;
-    
+
 }
+
 /* The navigation menu links */
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -85,74 +102,87 @@
     color: #FFFFFF;
     display: block;
 }
-.imageWrap{
+
+.imageWrap {
     display: block;
     text-align: right;
 }
+
 ul {
- list-style-type: square;
- list-style-position: outside;
- list-style-image: none;
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
 }
-body{  
-    background-color:#25fffe; 
+
+body {
+    background-color: #25fffe;
 }
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #A9A9A9;
 }
-.whoAmI{
+
+.whoAmI {
     padding: 0px 15px;
     width: 60%;
     font-size: 17px;
     font-family: ProximaNovaRegular;
-    
+
 }
+
 .pic {
     display: block;
-    
+
     margin-right: 20%;
 }
-.sidenav a.current{
+
+.sidenav a.current {
     color: aqua
 }
+
 /* Style page content */
 .main {
     padding: 10px 10px;
     margin-top: -5px;
     margin-right: -5px;
-    margin-left: 150px; /* Same as the width of the sidebar */
-    
+    margin-left: 150px;
+    /* Same as the width of the sidebar */
+
 }
-.pic img:hover{
+
+.pic img:hover {
     opacity: 60%;
 }
+
 #idek {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
-.projectText{
+
+.projectText {
     font-size: 20px;
     font-family: ProximaNovaRegular;
-    
+
     max-width: 90%;
     transition: max-width .3s
-    /* transform:scaleX(2); */
-    /* max-width: 100%; */
+        /* transform:scaleX(2); */
+        /* max-width: 100%; */
 }
-.projectText.isOpen{
+
+.projectText.isOpen {
     /* overflow-x: auto; */
     /* max-width: 50%; */
     max-width: 98%;
-    
+
     /* transform: scaleX(.5); */
     /* font-family: cursive; */
     /* width: 75%; */
 
 }
 
-.gunPic{
+.gunPic {
     display: block;
     float: right;
     width: 600px;
@@ -160,26 +190,39 @@ body{
     margin-left: 1%;
     margin-bottom: 3%;
 }
-.projectHeadings{
+
+.projectHeadings {
     padding: 10px 15px;
     font-size: 70px;
     font-family: impactreg;
 }
-#idek:hover {opacity: 0.7;}
+
+#idek:hover {
+    opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
@@ -203,7 +246,8 @@ body{
 }
 
 /* Add Animation */
-.modal-content, #caption {    
+.modal-content,
+#caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -211,13 +255,23 @@ body{
 }
 
 @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
 
 /* The Close Button */
@@ -237,102 +291,116 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
-.hideThis{
-    
+
+.hideThis {
+
     display: none;
 }
 
-.duckVid{
+.duckVid {
     text-align: center;
 }
+
 .thumb {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: 100%;
-  transition: .5s ease;
-  backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .projectBox {
-  transition: .1s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  outline: 5px solid #263238;
-  outline-offset: -2px;    
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    outline: 5px solid #263238;
+    outline-offset: -2px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 }
+
 .projectWrap {
     margin-top: 2%;
     margin-right: 9%;
     position: relative;
-    
+
     float: right;
-    
+
     width: 41%;
-    
+
 }
 
 .projectWrap:hover .thumb {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 
 .projectWrap:hover .projectBox {
-  opacity: 1;
+    opacity: 1;
 }
-.brickVid{
-    
+
+.brickVid {
+
     text-align: center;
 }
+
 .projectWrap2 {
     margin-top: 2%;
     position: relative;
     margin-left: 9%;
-    
+
     width: 40%;
 }
+
 .projectWrap2:hover .thumb {
-  opacity: 0.5;
+    opacity: 0.5;
 }
-.floatRight{
+
+.floatRight {
     display: block;
-    float:right;
+    float: right;
 }
+
 .projectWrap2:hover .projectBox {
-  opacity: 1;
+    opacity: 1;
 }
+
 .projectWrap3 {
     margin-top: 0.5%;
     position: relative;
     margin-left: 9%;
-    
+
     clear: left;
     float: left;
     width: 40%;
 }
+
 .projectWrap3:hover .thumb {
-  opacity: 0.5;
+    opacity: 0.5;
 }
+
 .projectWrap3:hover .projectBox {
-  opacity: 1;
+    opacity: 1;
 }
+
 .projectWrap4 {
     margin-top: 0.5%;
     position: relative;
     margin-right: 9%;
-    
+
     float: right;
     width: 41%;
 }
+
 .projectWrap4:hover .thumb {
-  opacity: 0.5;
+    opacity: 0.5;
 }
+
 .projectWrap4:hover .projectBox {
-  opacity: 1;
+    opacity: 1;
 }
 
 .projectWrap5 {
@@ -344,16 +412,19 @@ body{
     float: left;
     width: 40%;
 }
-.airplanePic{
+
+.airplanePic {
     display: block;
     margin: auto;
-    
+
 }
+
 .projectWrap5:hover .thumb {
-  opacity: 0.5;
+    opacity: 0.5;
 }
+
 .projectWrap5:hover .projectBox {
-  opacity: 1;
+    opacity: 1;
 }
 
 .projectWrap6 {
@@ -364,42 +435,57 @@ body{
     float: right;
     width: 41%;
 }
+
 .projectWrap6:hover .thumb {
-  opacity: 0.5;
+    opacity: 0.5;
 }
+
 .projectWrap6:hover .projectBox {
-  opacity: 1;
+    opacity: 1;
 }
-.mySlides {display:none}
-.vr{
-    float:right;
+
+.mySlides {
+    display: none
+}
+
+.vr {
+    float: right;
     margin-top: 15px;
     margin-right: 15px;
     width: 50%;
     height: 500px;
-    
+
 }
+
 .projectName {
-  background-color: #283593;
-  color: #e0e0e0;
-  font-family: ProximaNovaRegular;
-  font-size: 30px;
-  padding: 16px 32px;
+    background-color: #283593;
+    color: #e0e0e0;
+    font-family: ProximaNovaRegular;
+    font-size: 30px;
+    padding: 16px 32px;
 }
+
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
     }
 }
-.bookMark{
+
+.bookMark {
     width: 500px;
     height: 500px;
-    
+
 }
+
 /* Font downloaded from FontsForWeb.com */
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
