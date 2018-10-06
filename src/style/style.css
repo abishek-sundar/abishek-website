@@ -136,7 +136,7 @@ body{
     font-size: 20px;
     font-family: ProximaNovaRegular;
     
-    max-width: 85%;
+    max-width: 90%;
     transition: max-width .3s
     /* transform:scaleX(2); */
     /* max-width: 100%; */
@@ -144,7 +144,7 @@ body{
 .projectText.isOpen{
     /* overflow-x: auto; */
     /* max-width: 50%; */
-    max-width: 100%;
+    max-width: 98%;
     
     /* transform: scaleX(.5); */
     /* font-family: cursive; */
