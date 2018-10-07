@@ -91,7 +91,7 @@ body {
   position: relative;
   display: block;
   font-family: 'Quicksand', sans-serif;
-
+  text-decoration: none;
   padding: 20px 0 20px 40px;
   font-size: 14px;
   color: #eee;
@@ -124,19 +124,6 @@ body {
 
 .nav li:nth-child(5) a:before {
   content: '\f0a8 ';
-}
-
-.nav li:nth-child(6) a:before {
-  content: '\f115';
-}
-
-.nav li:nth-child(7) a:before {
-  content: '\f085';
-}
-
-.nav li:nth-child(8) a:before {
-  content: '\f023';
-  left: 23px;
 }
 
 .nav li a:hover {
