@@ -165,7 +165,7 @@ body {
     font-size: 20px;
     font-family: ProximaNovaRegular;
 
-    max-width: 90%;
+    max-width: 87%;
     transition: max-width .3s
         /* transform:scaleX(2); */
         /* max-width: 100%; */
