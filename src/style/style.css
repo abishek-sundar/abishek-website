@@ -328,8 +328,8 @@ body {
     position: relative;
 
     float: right;
-
-    width: 39.8%;
+    height: 30%;
+    width: 40%;
 
 }
 
@@ -351,7 +351,7 @@ body {
     margin-top: 2%;
     position: relative;
     margin-left: 4%;
-
+    height: 30%;
     width: 40%;
 }
 
@@ -375,6 +375,7 @@ body {
 
     clear: left;
     float: left;
+    height: 30%;
     width: 40%;
 }
 
@@ -387,11 +388,12 @@ body {
 }
 
 .projectWrap4 {
-    margin-top: 0.5%;
+    margin-top: 0.46%;
     position: relative;
-    margin-right: 14%;
+    margin-right: 13.9%;
 
     float: right;
+    height: 30%;
     width: 40%;
 }
 
@@ -404,9 +406,9 @@ body {
 }
 
 .projectWrap5 {
-    margin-top: 2%;
+    margin-top: 0.5%;
     position: relative;
-    margin-left: 5%;
+    margin-left: 26%;
     margin-bottom: 2%;
     clear: left;
     float: left;
@@ -433,7 +435,8 @@ body {
     margin-right: 9%;
     margin-bottom: 2%;
     float: right;
-    width: 41%;
+    height: 30%;
+    width: 40%;
 }
 
 .projectWrap6:hover .thumb {
