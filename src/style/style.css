@@ -313,25 +313,42 @@ body {
 .projectBox {
     transition: .1s ease;
     opacity: 0;
+    /* float: left; */
     position: absolute;
-    top: 50%;
+    width:20%;
+    /* top: 50%; */
     outline: 5px solid #263238;
     outline-offset: -2px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+    /* left: 50%; */
+    /* display: inline-block; */
+    transform: translate(50%, -400%);
+    -ms-transform: translate(-50%, -50%);
 }
-
+/* 
 .projectWrap {
-    margin-top: 2%;
-    margin-right: 14%;
+    margin-top: 0.65%;
+    margin-right: 14.5%;
     position: relative;
 
     float: right;
     height: 30%;
     width: 40%;
 
+} */
+
+.projectWrap{
+    
+    float: left;
+    width: 40%;
+    margin: 1.5%;
+    text-align: center;
 }
+
+.thumbnails{
+    width: 100%;
+    height: 100%;
+}
+
 
 .projectWrap:hover .thumb {
     opacity: 0.5;
@@ -347,13 +364,13 @@ body {
     text-align: center;
 }
 
-.projectWrap2 {
-    margin-top: 2%;
+/* .projectWrap2 {
+    margin-top: 0.65%;
     position: relative;
-    margin-left: 4%;
+    margin-left: 4.5%;
     height: 30%;
     width: 40%;
-}
+} */
 
 .projectWrap2:hover .thumb {
     opacity: 0.5;
@@ -368,16 +385,16 @@ body {
     opacity: 1;
 }
 
-.projectWrap3 {
+/* .projectWrap3 {
     margin-top: 0.5%;
     position: relative;
-    margin-left: 4%;
+    margin-left: 4.5%;
 
     clear: left;
     float: left;
     height: 30%;
     width: 40%;
-}
+} */
 
 .projectWrap3:hover .thumb {
     opacity: 0.5;
@@ -387,15 +404,15 @@ body {
     opacity: 1;
 }
 
-.projectWrap4 {
+/* .projectWrap4 {
     margin-top: 0.46%;
     position: relative;
-    margin-right: 13.9%;
+    margin-right: 14.5%;
 
     float: right;
     height: 30%;
     width: 40%;
-}
+} */
 
 .projectWrap4:hover .thumb {
     opacity: 0.5;
@@ -405,15 +422,15 @@ body {
     opacity: 1;
 }
 
-.projectWrap5 {
+/* .projectWrap5 {
     margin-top: 0.5%;
     position: relative;
     margin-left: 26%;
-    margin-bottom: 2%;
+    margin-bottom: 0.65%;
     clear: left;
     float: left;
     width: 40%;
-}
+} */
 
 .airplanePic {
     display: block;
@@ -429,7 +446,7 @@ body {
     opacity: 1;
 }
 
-.projectWrap6 {
+/* .projectWrap6 {
     margin-top: 0.5%;
     position: relative;
     margin-right: 9%;
@@ -437,7 +454,7 @@ body {
     float: right;
     height: 30%;
     width: 40%;
-}
+} */
 
 .projectWrap6:hover .thumb {
     opacity: 0.5;
@@ -480,6 +497,8 @@ body {
     height: 500px;
 
 }
+
+
 
 /* Font downloaded from FontsForWeb.com */
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
